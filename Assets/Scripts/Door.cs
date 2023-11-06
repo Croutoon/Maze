@@ -43,11 +43,11 @@ public class Door : MonoBehaviour
 
         if(doorY < .1f)
         {
-            collider.isTrigger = false;
+            collider.enabled = false;
         }
         else
         {
-            collider.isTrigger = true;
+            collider.enabled = true;
         }
 
 
